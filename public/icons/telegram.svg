@@ -1,0 +1,7 @@
+<!-- Telegram icon - paper plane -->
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" fill="#c0c0c0"/>
+  <rect x="4" y="4" width="24" height="24" fill="#0088cc" stroke="#000" stroke-width="1"/>
+  <path d="M 8 12 L 20 8 L 18 20 L 12 16 L 8 12 Z" fill="#fff"/>
+  <path d="M 12 16 L 16 20 L 18 20 L 18 16" fill="#fff"/>
+</svg>

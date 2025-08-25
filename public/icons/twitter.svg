@@ -1,0 +1,8 @@
+<!-- Twitter icon - bird -->
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" fill="#c0c0c0"/>
+  <rect x="4" y="4" width="24" height="24" fill="#1da1f2" stroke="#000" stroke-width="1"/>
+  <path d="M 8 12 Q 10 8 16 10 Q 20 8 22 12 Q 24 16 20 20 Q 16 24 12 20 Q 8 16 8 12 Z" fill="#fff"/>
+  <circle cx="12" cy="14" r="1" fill="#000"/>
+  <path d="M 14 16 Q 18 14 20 16" stroke="#000" stroke-width="1" fill="none"/>
+</svg>
