@@ -1,4 +1,4 @@
-# Joe 98 - Windows 98 Style React Application
+# Joe Solana - Windows 98 Style React Application
 
 🎉 **Project Successfully Created!** 
 
@@ -106,7 +106,7 @@ joe98/
 Edit `.env.local` to customize external links:
 
 ```env
-NEXT_PUBLIC_TWITTER_URL=https://twitter.com/your_account
+NEXT_PUBLIC_TWITTER_URL=https://x.com/ogjoeonsolana
 NEXT_PUBLIC_TELEGRAM_URL=https://t.me/your_channel  
 NEXT_PUBLIC_DEXSCREENER_URL=https://dexscreener.com/solana/your_pair
 ```

@@ -1,6 +1,6 @@
-# Joe 98 - Windows 98 Style React Application
+# Joe Solana - Windows 98 Style React Application
 
-A nostalgic Windows 98-style desktop experience built with Next.js 14, React, and TypeScript.
+Joe Solana, Hey my name is joe. A nostalgic Windows 98-style desktop experience built with Next.js 14, React, and TypeScript.
 
 ## Features
 
@@ -74,7 +74,7 @@ yarn dev
 Create a `.env.local` file with the following variables:
 
 ```env
-NEXT_PUBLIC_TWITTER_URL=https://twitter.com/your_account
+NEXT_PUBLIC_TWITTER_URL=https://x.com/ogjoeonsolana
 NEXT_PUBLIC_TELEGRAM_URL=https://t.me/your_channel
 NEXT_PUBLIC_DEXSCREENER_URL=https://dexscreener.com/solana/your_pair
 ```

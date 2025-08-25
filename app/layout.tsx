@@ -6,8 +6,8 @@ import { Provider } from 'jotai';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Joe 98 - Retro Desktop Experience',
-  description: 'Experience the nostalgia of Windows 98 with Joe 98',
+  title: 'Joe Solana - Retro Desktop Experience',
+  description: 'Joe Solana, Hey my name is joe. Experience the nostalgia of Windows 98 with Joe 98',
   icons: {
     icon: '/favicon.ico',
   },

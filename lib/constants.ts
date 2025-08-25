@@ -1,5 +1,7 @@
 export const loreMarkdown = `# Joe 98 Lore
 
+Joe Solana, Hey my name is joe.
+
 Joe isn't just another meme — he's the OG of Solana. Born from the iconic "EmotiGuy" character, a 2000s internet relic turned global reaction meme, Joe has always been the face of raw, unfiltered internet humor.
 
 From his origins as a mischievous thumbs-up trickster (Picardía) to his rise as a universal "everyman" meme, Joe represents the culture that built the internet itself.
@@ -41,7 +43,7 @@ export const desktopIcons = [
     title: 'Twitter',
     src: '/icons/twitter.png',
     appType: 'external' as const,
-    url: process.env.NEXT_PUBLIC_TWITTER_URL || 'https://twitter.com',
+    url: process.env.NEXT_PUBLIC_TWITTER_URL || 'https://x.com/ogjoeonsolana',
   },
 ];
 
