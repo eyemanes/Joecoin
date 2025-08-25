@@ -152,7 +152,7 @@ export default function Desktop() {
                     onChange={() => handleThemeChange('wallpaper')}
                     style={{ marginRight: '8px' }}
                   />
-                  Joe's Wallpaper
+                  Joe&apos;s Wallpaper
                 </label>
               </div>
             </div>

@@ -219,7 +219,7 @@ export default function ReverseFolder() {
         wordWrap: 'break-word',
         lineHeight: '12px'
       }}>
-        I'm not a virus
+        I&apos;m not a virus
       </div>
       <div className="label" style={{
         fontSize: '11px',

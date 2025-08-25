@@ -19,7 +19,7 @@ export default function ProfileSelect() {
 
     document.addEventListener('keydown', handleKeyPress);
     return () => document.removeEventListener('keydown', handleKeyPress);
-  }, []);
+  }, [handleEnter]);
 
   return (
     <div className="profile-screen">
@@ -30,7 +30,7 @@ export default function ProfileSelect() {
           alt="User Profile" 
           className="profile-image"
         />
-        <div className="profile-name">Hey I'm Joe</div>
+        <div className="profile-name">Hey I&apos;m Joe</div>
         <div className="profile-enter">Right here Joe</div>
       </div>
     </div>
