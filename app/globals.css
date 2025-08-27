@@ -161,6 +161,32 @@ body {
   background: #333333;
 }
 
+.ca-button {
+  height: 32px;
+  margin: 4px;
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: bold;
+  background: #000080;
+  color: #ffffff;
+  border: 2px outset #000080;
+  cursor: pointer;
+  min-width: 50px;
+  transition: all 0.2s ease;
+}
+
+.ca-button:hover {
+  background: #0000a0;
+  border-color: #0000a0;
+}
+
+.ca-button:active {
+  border: 2px inset #000080;
+  background: #000060;
+}
+
 .start-icon {
   width: 16px;
   height: 16px;
@@ -229,14 +255,7 @@ body {
   color: #ffff00;
 }
 
-.ca-button {
-  transition: all 0.2s ease;
-}
 
-.ca-button:hover {
-  background: #000080;
-  color: #ffffff;
-}
 
 .start-menu-separator {
   height: 1px;

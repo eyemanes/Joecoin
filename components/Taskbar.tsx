@@ -72,6 +72,39 @@ export default function Taskbar() {
     toggleStartMenu();
   };
 
+  const handleCopyCA = async () => {
+    const contractAddress = '3UnujSYSAinhTJsGmqMKqXWjkyb2qMqezFQgD7HkseXW';
+    try {
+      await navigator.clipboard.writeText(contractAddress);
+      // Show a brief success message
+      const originalText = '📋 CA';
+      const button = document.querySelector('.ca-button') as HTMLElement;
+      if (button) {
+        button.textContent = '✅ Copied!';
+        setTimeout(() => {
+          button.textContent = originalText;
+        }, 2000);
+      }
+    } catch (err) {
+      // Fallback for older browsers
+      const textArea = document.createElement('textarea');
+      textArea.value = contractAddress;
+      document.body.appendChild(textArea);
+      textArea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textArea);
+      
+      const originalText = '📋 CA';
+      const button = document.querySelector('.ca-button') as HTMLElement;
+      if (button) {
+        button.textContent = '✅ Copied!';
+        setTimeout(() => {
+          button.textContent = originalText;
+        }, 2000);
+      }
+    }
+  };
+
   return (
     <div className="taskbar">
       {/* JoeFuck Animation */}
@@ -108,6 +141,14 @@ export default function Taskbar() {
           className="start-icon"
         />
         Start
+      </button>
+
+      <button 
+        className="ca-button button"
+        onClick={handleCopyCA}
+        title="Copy Contract Address"
+      >
+        📋 CA
       </button>
 
       <div className="taskbar-buttons">

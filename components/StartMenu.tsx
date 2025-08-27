@@ -54,39 +54,7 @@ export default function StartMenu() {
     closeStartMenu();
   };
 
-  const handleCopyCA = async () => {
-    const contractAddress = '3UnujSYSAinhTJsGmqMKqXWjkyb2qMqezFQgD7HkseXW';
-    try {
-      await navigator.clipboard.writeText(contractAddress);
-      // Show a brief success message
-      const originalText = '📋 Copy CA';
-      const button = document.querySelector('.ca-button') as HTMLElement;
-      if (button) {
-        button.textContent = '✅ Copied!';
-        setTimeout(() => {
-          button.textContent = originalText;
-        }, 2000);
-      }
-    } catch (err) {
-      // Fallback for older browsers
-      const textArea = document.createElement('textarea');
-      textArea.value = contractAddress;
-      document.body.appendChild(textArea);
-      textArea.select();
-      document.execCommand('copy');
-      document.body.removeChild(textArea);
-      
-      const originalText = '📋 Copy CA';
-      const button = document.querySelector('.ca-button') as HTMLElement;
-      if (button) {
-        button.textContent = '✅ Copied!';
-        setTimeout(() => {
-          button.textContent = originalText;
-        }, 2000);
-      }
-    }
-    closeStartMenu();
-  };
+
 
   return (
     <>
@@ -154,15 +122,7 @@ export default function StartMenu() {
           </div>
         </div>
         
-        <div className="start-menu-separator" />
-        
-        <div className="start-menu-section">
-          <div className="start-menu-item ca-button" onClick={handleCopyCA}>
-            📋 Copy CA
-          </div>
-        </div>
-        
-        <div className="start-menu-separator" />
+
         
         <div className="start-menu-section">
           <div className="start-menu-item" onClick={handleShutDown}>
