@@ -37,7 +37,6 @@ export default function BootScreen() {
         />
         
         <div className="loading-text">
-          <div className="joe98-title">Joe Solana</div>
           <div className="loading-subtitle">Loading Joe...</div>
         </div>
         

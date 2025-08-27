@@ -304,8 +304,9 @@ body {
 }
 
 .loading-image {
-  max-width: 300px;
-  max-height: 200px;
+  width: 600px;
+  height: 400px;
+  object-fit: contain;
   image-rendering: pixelated;
   filter: brightness(1.1);
 }

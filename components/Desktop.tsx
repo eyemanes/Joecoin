@@ -10,6 +10,7 @@ import StartMenu from './StartMenu';
 import MarkdownPane from './MarkdownPane';
 import GalleryGrid from './GalleryGrid';
 import ReverseFolder from './ReverseFolder';
+
 import {
   desktopStateAtom,
   setThemeAtom,
@@ -99,6 +100,7 @@ export default function Desktop() {
           {window.id === 'gallery' && (
             <GalleryGrid />
           )}
+
           {window.id === 'dexscreener' && window.url && (
             <iframe
               src={window.url}

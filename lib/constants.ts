@@ -1,16 +1,14 @@
-export const loreMarkdown = `# Joe is the emoti face of crypto
+export const loreMarkdown = `# Joe 98 Lore
 
-Joe is the emoti face of crypto — born from internet culture, wrecked a thousand times, and still standing. He's the eternal degen: simple, stupid, and painfully relatable.
+Joe Solana, Hey my name is joe.
 
-## About Joe (Lore)
+Joe isn't just another meme — he's the OG of Solana. Born from the iconic "EmotiGuy" character, a 2000s internet relic turned global reaction meme, Joe has always been the face of raw, unfiltered internet humor.
 
-Joe, also known as Emotiguy, started life as a 3D emoji character built for digital platforms like Discord and Slack. Originally tucked away in a Windows app, Joe became a cultural icon because of his customizable expressions — that blank, deadpan stare that somehow captured every mood of the internet.
+From his origins as a mischievous thumbs-up trickster (Picardía) to his rise as a universal "everyman" meme, Joe represents the culture that built the internet itself.
 
-As emoji-based communication exploded, Joe's face became shorthand for how we really feel online: confused, wrecked, hopeful, and coping all at once. He wasn't flashy. He wasn't a hero. He was just Joe — the everyday symbol of digital life.
+Now, reborn on Solana, $JOE carries that same energy into crypto — fast, chaotic, unstoppable, and impossible not to laugh with.
 
-Crypto made him relevant again. Because Joe is us. He buys the top, sells the bottom, swears he's done, then apes back in five minutes later. He's the survivor of every pump, crash, and rug pull, still standing with that same blank expression.
-
-Joe isn't trying to be profound. He's a living piece of internet culture, dragged onto the blockchain where he belongs. A meme of survival, pain, and persistence — the coin for everyone who's ever laughed through the chaos.
+Joe isn't just a coin. He's the culture coin.
 `;
 
 export const desktopIcons = [
