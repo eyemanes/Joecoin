@@ -13,9 +13,9 @@ export default function BootScreen() {
       setProgress(prev => {
         if (prev >= 100) {
           clearInterval(interval);
-          // Automatically proceed after a short delay
+          // Automatically proceed to desktop after a short delay
           setTimeout(() => {
-            router.push('/profile');
+            router.push('/desktop');
           }, 1000);
           return 100;
         }

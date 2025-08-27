@@ -49,7 +49,42 @@ export default function StartMenu() {
   };
 
   const handleShutDown = () => {
-    router.push('/profile');
+    // For now, just close the start menu
+    // Could be extended to show a shutdown dialog or restart to boot
+    closeStartMenu();
+  };
+
+  const handleCopyCA = async () => {
+    const contractAddress = '3UnujSYSAinhTJsGmqMKqXWjkyb2qMqezFQgD7HkseXW';
+    try {
+      await navigator.clipboard.writeText(contractAddress);
+      // Show a brief success message
+      const originalText = '📋 Copy CA';
+      const button = document.querySelector('.ca-button') as HTMLElement;
+      if (button) {
+        button.textContent = '✅ Copied!';
+        setTimeout(() => {
+          button.textContent = originalText;
+        }, 2000);
+      }
+    } catch (err) {
+      // Fallback for older browsers
+      const textArea = document.createElement('textarea');
+      textArea.value = contractAddress;
+      document.body.appendChild(textArea);
+      textArea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textArea);
+      
+      const originalText = '📋 Copy CA';
+      const button = document.querySelector('.ca-button') as HTMLElement;
+      if (button) {
+        button.textContent = '✅ Copied!';
+        setTimeout(() => {
+          button.textContent = originalText;
+        }, 2000);
+      }
+    }
     closeStartMenu();
   };
 
@@ -116,6 +151,14 @@ export default function StartMenu() {
           </div>
           <div className="start-menu-item" onClick={() => handleProgramClick('telegram')}>
             💬 Telegram
+          </div>
+        </div>
+        
+        <div className="start-menu-separator" />
+        
+        <div className="start-menu-section">
+          <div className="start-menu-item ca-button" onClick={handleCopyCA}>
+            📋 Copy CA
           </div>
         </div>
         

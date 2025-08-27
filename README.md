@@ -6,7 +6,7 @@ Joe Solana, Hey my name is joe. A nostalgic Windows 98-style desktop experience 
 
 - **Authentic Windows 98 UI**: Complete with window chrome, taskbar, start menu, and desktop icons
 - **Boot Sequence**: Classic boot screen with loading bar and "Press any key to continue"
-- **User Profile Selection**: Simple profile screen with Enter button
+- **Direct Boot to Desktop**: Seamless transition from boot to desktop environment
 - **Desktop Environment**: 
   - Draggable and resizable windows
   - Desktop icons with single-click selection and double-click to open
@@ -92,7 +92,7 @@ To change the Dexscreener pair URL:
 ```
 /app
   /boot/page.tsx          # Boot screen
-  /profile/page.tsx       # Profile selection
+
   /desktop/page.tsx       # Main desktop environment  
   /lore/page.tsx         # Standalone lore page
   /gallery/page.tsx      # Standalone gallery page
@@ -106,7 +106,7 @@ To change the Dexscreener pair URL:
   Icon.tsx              # Desktop icons
   Win98Window.tsx       # Draggable window wrapper
   BootScreen.tsx        # Boot sequence
-  ProfileSelect.tsx     # Profile selection screen
+
   GalleryGrid.tsx       # Image gallery grid
   MarkdownPane.tsx      # Markdown content renderer
 

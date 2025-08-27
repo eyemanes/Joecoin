@@ -11,7 +11,7 @@ joe98/
 ├── app/                    # Next.js App Router pages
 │   ├── boot/              # Boot screen page
 │   ├── desktop/           # Main desktop environment
-│   ├── profile/           # Profile selection page
+
 │   ├── lore/              # Standalone lore page
 │   └── gallery/           # Standalone gallery page
 ├── components/            # React components
@@ -67,9 +67,8 @@ joe98/
 
 ## 🎮 Features Implemented
 
-### ✅ Complete Boot → Profile → Desktop Flow
-- **Boot Screen**: "Joe 98" logo with loading bar and "Press any key to continue"
-- **Profile Screen**: Large "Enter" button to access desktop
+### ✅ Complete Boot → Desktop Flow
+- **Boot Screen**: "Joe 98" logo with loading bar and automatic transition
 - **Desktop Environment**: Full Windows 98 desktop experience
 
 ### ✅ Authentic Windows 98 UI
@@ -157,7 +156,7 @@ pnpm lint       # Run ESLint
 
 The project is fully functional and includes:
 
-- Complete authentication flow (Boot → Profile → Desktop)
+- Complete boot flow (Boot → Desktop)
 - All major Windows 98 desktop features  
 - Working window management system
 - Configurable applications and links

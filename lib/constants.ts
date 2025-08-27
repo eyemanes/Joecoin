@@ -25,6 +25,12 @@ export const desktopIcons = [
     appType: 'internal' as const,
   },
   {
+    id: 'private',
+    title: 'Private',
+    src: '/icons/private.svg',
+    appType: 'internal' as const,
+  },
+  {
     id: 'community',
     title: 'Community',
     src: '/icons/community.svg',
@@ -43,7 +49,7 @@ export const desktopIcons = [
     title: 'Twitter',
     src: '/icons/twitter.png',
     appType: 'external' as const,
-    url: process.env.NEXT_PUBLIC_TWITTER_URL || 'https://x.com/ogjoeonsolana',
+    url: process.env.NEXT_PUBLIC_TWITTER_URL || 'https://x.com/OGJoeOnSol',
   },
 ];
 
